@@ -4,7 +4,7 @@ A lightweight and generic save system I use for my Unity projects.
 
 ## Features
 - Generic save and load methods, making it easy to save different types of data across any game.
-- Clean and concise implementation (only 23 lines of code).
+- Clean and concise implementation.
 - Automatic file name generation for convenience.
 - Requires the ISaveData interface to prevent errors and ensure only compatible types are saved.
 
