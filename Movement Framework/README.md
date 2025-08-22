@@ -1,6 +1,6 @@
-# Unity Movement System
+# Unity Movement Framework
 
-Abstract top down 2D movement system handling character motion and movement animation.
+Abstract top down 2D movement framework handling character motion and movement animation.
 
 ## Features 
 - Flexible movement logic adaptable for player input, enemy AI, or other behaviours.
@@ -17,6 +17,7 @@ System for converting Unity Input System values into a reusable Vector2.
 ## Example Usage
 Use alongside the Unity Movement System to implement player movement:
 
+```csharp
 public class PlayerMovement : MovementBase
 {
     protected override void HandleMovementInput()
