@@ -6,11 +6,11 @@ public static class SaveSystem
     public static void Save<T>(T saveData) where T : ISaveData
     {
         string path = GetPath<T>();
-        var data = JsonUtility.ToJson(saveData, true);
-        File.WriteAllText(path, data);
+        string json = JsonUtility.ToJson(saveData, true);
+        File.WriteAllText(path, json);
     }
 
-    public static T Load<T>()
+    public static T Load<T>() where T : ISaveData
     {
         string path = GetPath<T>();
         string json = File.ReadAllText(path);
