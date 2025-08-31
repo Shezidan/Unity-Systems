@@ -1,0 +1,12 @@
+{
+  "name": "com.dscore.movement",
+  "displayName": "DSCore Movement",
+  "version": "0.1.0",
+  "unity": "6000.0",
+  "description": "A modular and reusable movement framework for Unity.",
+  "author": {
+    "name": "David Sheridan",
+    "url": "https://github.com/Shezidan"
+  },
+  "dependencies": {}
+}
