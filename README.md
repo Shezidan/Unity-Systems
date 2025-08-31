@@ -6,6 +6,7 @@ A library of modular systems for Unity game development.
 ### [Movement Framework](./MovementFramework)
 **Description:**  
 Abstract top down 2D movement system handling character motion and movement animation.
+
 **Installation (Unity Package Manager):**  
 ```
 https://github.com/Shezidan/Unity-Systems.git?path=/MovementFramework
